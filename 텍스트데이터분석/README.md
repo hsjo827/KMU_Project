@@ -48,9 +48,49 @@
 
 3. 그러나 네이버 API에서 언론사를 필터링하는 파라미터 제공 X
 
-4. 고민 끝에 검색하고자 하는 키워드 앞에 언론사 명을 붙이기로 결정 (ex. 한겨레 후쿠시마 오염수, 중앙일보 후쿠시마 오염수)
+4. 고민 끝에 검색하고자 하는 키워드 앞에 언론사 명을 붙이기로 결정 (ex.한겨레 후쿠시마 오염수, 중앙일보 후쿠시마 오염수)
 
 5. 키워드 당 기사 1000개씩 수집 - 관련도 순 (title,original link,link,description,pubDate)
+
+![image](https://github.com/hsjo827/Projects/assets/133327403/6f844e01-21fd-4b16-a8a4-948aa9000f32)
+
+
+<br/>
+
+**ex) '조선일보 해병대' 수집 결과**
+![image](https://github.com/hsjo827/Projects/assets/133327403/51d55f56-6b13-40cc-bdef-c567b21ec0e7)
+
+
+**ex) '오마이뉴스 해병대' 수집 결과**
+![image](https://github.com/hsjo827/Projects/assets/133327403/19350e7c-1ae9-4a0c-9f84-ca7ba91d1e5e)
+
+<br/>
+
+**[네이버 뉴스 링크 수집]**
+- 네이버 뉴스 API로 수집한 기사 링크(link) 중 네이버 뉴스 기사(n.news.naver.com)에 대해서만 링크(link) 얻기
+
+![image](https://github.com/hsjo827/Projects/assets/133327403/32a7cdce-3d7d-4ede-bf27-1fe884bfa813)
+
+<br/>
+
+**[특정 언론사의 기사만 수집]**
+<br/>
+1. 단순히 검색 키워드 앞에 언론사명을 넣어줬기 때문에 언론사 필터링이 잘 되어있지 않음 (ex.'오마이뉴스 후쿠시마' 검색 결과에 오마이뉴스 외 언론사 기사가 존재)
+
+2. 특정 언론사 네이버 뉴스 base link를 통해 특정 언론사 기사만 필터링 (ex.'오마이뉴스 후쿠미사' 검색 결과에 오마이뉴스 기사만 가져오기)
+
+![image](https://github.com/hsjo827/Projects/assets/133327403/c235d40d-532a-41fc-9f6e-6c5b8a1fdf3c)
+
+
+
+
+
+
+
+
+
+
+   
 
 
 
