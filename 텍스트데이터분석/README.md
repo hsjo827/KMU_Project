@@ -54,7 +54,6 @@
 
 ![image](https://github.com/hsjo827/Projects/assets/133327403/6f844e01-21fd-4b16-a8a4-948aa9000f32)
 
-
 <br/>
 
 **ex) '조선일보 해병대' 수집 결과**
