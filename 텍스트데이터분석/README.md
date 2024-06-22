@@ -81,6 +81,39 @@
 
 ![image](https://github.com/hsjo827/Projects/assets/133327403/c235d40d-532a-41fc-9f6e-6c5b8a1fdf3c)
 
+<br/>
+
+**[특정 언론사의 가사만 수집한 결과]**
+
+- ex) 오마이뉴스
+
+![image](https://github.com/hsjo827/Projects/assets/133327403/37d9bfb9-f0b2-4182-8c7b-b42a5a8cd8cc)
+
+- ex) 중앙일보
+
+![image](https://github.com/hsjo827/Projects/assets/133327403/0688fcd1-8bf8-4866-8e8c-1f83aa55ac6b)
+
+
+<br/>
+
+**[selenium을 통해 기사 제목 및 링크 수집]**
+
+- 각 언론사별 네이버 뉴스 링크를 하나씩 접속하여 기사 제목 및 링크 수집
+
+![image](https://github.com/hsjo827/Projects/assets/133327403/c8bcdd27-f225-49fb-90ca-40c7514f06c9)
+
+
+<br/>
+
+**[scrapping 결과를 csv 파일로 저장]**
+
+- Source : 언론사명
+- Link : 기사 링크
+- Title : 기사 제목
+
+![image](https://github.com/hsjo827/Projects/assets/133327403/f90c3655-9548-43dd-9446-35e152288ba4)
+
+<br/>
 
 
 
