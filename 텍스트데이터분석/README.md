@@ -66,13 +66,73 @@
 
 <br/>
 
+### 전처리
 
+**[공통]**
+   - 한글과 공백을 제외한 모든 문자 제거
+   - 연속된 공백을 단일 공백으로 변환
+   - 양쪽 끝의 공백 문자 제거
+   - stopwords 제거
+
+**[MLP]**
+   - 진보, 보수 성향 데이터프레임에 label 값 할당 (진보:1 , 보수:0)
+   - 분류 모델 학습에 있어 특정 언론사명이 개입되지 않도록 기사 제목에서 언론사명 모두 삭제
+   - 진보, 보수 데이터 불균형이 존재하여 **한국어 BERT 모델을 통한 Data Augmentation 수행(random masking replacement, random masking insertion)**
 
 <br/>
 
+### WordCloud 생성
 
+- 전처리된 언론사별 제목을 하나의 text로 이어붙여 진보,기타,보수 언론 순으로 WordCloud 생성
+- 예시)
 
+![image](https://github.com/hsjo827/Projects/assets/133327403/50d302db-9447-44b5-aa17-fe91083e3a2a)
+![image](https://github.com/hsjo827/Projects/assets/133327403/0467f7a4-8fce-40ed-95e3-ca64efb9cfb7)
 
+<br/>
+
+### MLP
+
+**[모델 구성]**
+   - 4개의 hideen layer와 1개의 output layer
+   - Fully Connected Layer
+   - Batch Normalization 수행
+   - 활성화 함수 ReLU 적용 후 Dropout 적용(p=0.5)
+
+**[모델 학습]**
+   - 데이터의 20%를 test data로 사용
+   - batch size=32
+   - 은닉층의 뉴런수를 절반씩 줄여나감
+   - 이진 분류(진보,보수)를 위해 출력층의 뉴런 수를 2로 설정
+   - 손실함수는 CrossEntropyLoss, Optimizer는 Adam
+
+**[Word2Vec]**
+   - 모델 정확도 평균 58.05%로 성능이 좋지 않음
+   - epoch과 hidden layer 수를 늘려봤지만 크게 효과가 없었음
+
+**[TF-IDF]**
+   - 모델 정확도 평균 82.55% (최대 94.29%)로 약 24.5% 정확도 상승
+   - TF-IDF 벡터로 학습시킨 모델을 통해 연합뉴스, 매일경제, 머니투데이의 성향을 파악하기로 결정
+
+**[우리만의 해석]**
+   - 기사 제목은 일반적으로 짧고 핵심 단어로 이루어져 있음
+   - TF-IDF는 특정 문서에서만 자주 등장하는 단어의 가중치는 높임
+   - 이는 짧은 텍스트에서 단어의 중요도를 명확하게 반영할 수 있음
+   - 반면 Word2Vec은 단어의 문맥을 반영하여 단어 벡터를 학습
+   - 따라서 짧은 텍스트에서는 충분한 문맥 정보를 얻기 어려움
+
+**[예측 결과]**
+   - 윤석열 (세 언론사 모두 진보 성향)
+ ![image](https://github.com/hsjo827/Projects/assets/133327403/1397337a-b417-438b-b655-48ef519d23f1)
+
+   - 이재명 (세 언론사 모두 진보 성향)
+![image](https://github.com/hsjo827/Projects/assets/133327403/84e7e9a7-b0b7-489d-a3bf-a408561f1e1c)
+
+**[논의할 사항]**
+- MLP 모델이 test_media(연합뉴스,매일경제,머니투데이)가 특정키워드에서 대부분 '진보성향'을 나타내고 있지만 이를 그대로 받아드리면 안됨
+- count가 적은 결과는 표본 수가 적기 때문에 큰 의미부여를 하면 안됨
+- BERT Augmentation은 주로 보수 진영 기사에서 이루어졌고 잘못된 증강이 되었을 가능성 존재 -> 편향된 결과가 나왔을 가능성 있음
+- 따라서 데이터 불균형에 대한 해결 방안 계속해서 생각해보고 개선해야 될 사항임
 
 
 
