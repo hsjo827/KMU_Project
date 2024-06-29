@@ -13,7 +13,7 @@
 - 대상: 휠체어 이용자, 시각장애인
 
 ## 🖥 역할 
-- 팀장, 발표, 아이디어 기획, 활용 데이터 탐색, 전반적인 Pipeline 구성, OpnePose Pipeline 구체화
+- 팀장, 발표, 아이디어 기획, 활용 데이터 탐색, 전반적인 Pipeline 구성, OpenPose Pipeline 구체화
 
 <br/>
 
