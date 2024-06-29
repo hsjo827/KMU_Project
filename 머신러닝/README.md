@@ -10,6 +10,7 @@
 
 ## 📑 주제
 - 설문(Survey) 데이터와 패널(Panel) 데이터를 통해 패널이 설문조사에 응답할지를 예측하는 프로젝트
+- 평가지표 : Accuracy
 
 ## 🖥 역할 
 - 조장, Feature Preprocessing, Feature Engineering, Modeling
