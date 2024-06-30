@@ -37,7 +37,7 @@
 
 <br/>
 
-![image](https://github.com/hsjo827/KMU_Project/assets/133327403/5ebe1ef7-b8ae-4b1e-878e-5a0039227c1e)
+![image](https://github.com/hsjo827/KMU_Project/assets/133327403/1b414e7d-e968-45bf-9bed-d75f27475fea)
 
 <br/>
 
