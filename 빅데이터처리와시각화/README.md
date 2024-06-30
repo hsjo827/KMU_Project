@@ -54,7 +54,7 @@
 
 <br/>
 
-![image](https://github.com/hsjo827/KMU_Project/assets/133327403/d3200bc0-6d37-4ea7-829e-7a970321ba9e)
+![image](https://github.com/hsjo827/KMU_Project/assets/133327403/4941351d-554f-4851-803d-89564a949ba8)
 
 <br/>
 
