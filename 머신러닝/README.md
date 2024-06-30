@@ -13,7 +13,7 @@
 - 평가지표 : Accuracy
 
 ## 🖥 역할 
-- 조장, Feature Preprocessing, Feature Engineering, Modeling
+- 팀장, Feature Preprocessing, Feature Engineering, Modeling
 
 <br/>
 
