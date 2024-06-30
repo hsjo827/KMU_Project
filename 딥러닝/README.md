@@ -81,7 +81,23 @@
 
 ### 느낀점과 앞으로의 계획
 - 본 프로젝트는 단순히 Pipline을 구성하는 거에 그쳤기 때문에 현실성이 부족한 부분이 존재할 가능성 O
-- **'2024 국토교통 데이터활용 경진대화'** 참가하여 본 프로젝트를 사용한 모델들을 실제로 구현해보고 현실 가능성을 더해 갈 예정
+- **'2024 국토교통 데이터활용 경진대회'** 참가하여 본 프로젝트를 사용한 모델들을 실제로 구현해보고 현실 가능성을 더해 갈 예정
 - 추가로 '딥러닝' 수업을 수강한 학생들이 준 피드백도 적극 반영할 예정
+
+<br/>
+
+### 피드백
+![image](https://github.com/hsjo827/KMU_Project/assets/133327403/947b0341-25ca-48b6-b1d5-cee01b82ce9d)
+![image](https://github.com/hsjo827/KMU_Project/assets/133327403/f4c740c3-f66c-4109-bb02-ac77e68040bf)
+![image](https://github.com/hsjo827/KMU_Project/assets/133327403/cf8dd009-6882-481c-a17e-66f97a952764)
+![image](https://github.com/hsjo827/KMU_Project/assets/133327403/2ec51447-22a1-4e06-b5b2-212894c3bd36)
+![image](https://github.com/hsjo827/KMU_Project/assets/133327403/2be8c00a-4033-40ab-bae9-f0023d9b28c3)
+![image](https://github.com/hsjo827/KMU_Project/assets/133327403/8f43a869-4808-415f-b487-68b8e5977c5e)
+![image](https://github.com/hsjo827/KMU_Project/assets/133327403/0fb3af56-d1fb-452d-a9f2-7bcd20895a3f)
+![image](https://github.com/hsjo827/KMU_Project/assets/133327403/c883c298-33ce-40ee-b29e-d0b18bd364ec)
+
+
+
+
 
 
